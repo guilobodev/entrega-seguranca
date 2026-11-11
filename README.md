@@ -1,5 +1,5 @@
 # Entrega 1 - Criptografia assimétrica e confiança
-
+## Alunos: Adriano Santana Fonseca, Guilherme Lôbo Brayner e Luiz Gustavo Santana.
 ## Problema e objetivo
 Proteger uma mensagem enviada entre dois serviços garantindo que o conteúdo fique cifrado em trânsito e que qualquer adulteração na mensagem seja detectada no destino. Foi implementada a cifragem híbrida com AES-GCM para o conteúdo e RSA-OAEP para encapsular a chave simétrica.
 
