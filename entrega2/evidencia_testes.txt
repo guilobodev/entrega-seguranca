@@ -1,0 +1,22 @@
+test_hash_adulterado_no_banco_rejeita_login (test_entrega2.TestEntrega2Autenticacao.test_hash_adulterado_no_banco_rejeita_login) ... ok
+test_hash_corrompido_nao_gera_excecao (test_entrega2.TestEntrega2Autenticacao.test_hash_corrompido_nao_gera_excecao) ... ok
+test_hash_usa_argon2id_com_parametros_configurados (test_entrega2.TestEntrega2Autenticacao.test_hash_usa_argon2id_com_parametros_configurados) ... ok
+test_login_com_senha_correta (test_entrega2.TestEntrega2Autenticacao.test_login_com_senha_correta) ... ok
+test_login_com_senha_incorreta (test_entrega2.TestEntrega2Autenticacao.test_login_com_senha_incorreta) ... ok
+test_login_com_usuario_inexistente (test_entrega2.TestEntrega2Autenticacao.test_login_com_usuario_inexistente) ... ok
+test_mensagem_igual_para_usuario_inexistente_e_senha_errada (test_entrega2.TestEntrega2Autenticacao.test_mensagem_igual_para_usuario_inexistente_e_senha_errada) ... ok
+test_nome_usuario_invalido_e_recusado (test_entrega2.TestEntrega2Autenticacao.test_nome_usuario_invalido_e_recusado) ... ok
+test_rehash_quando_parametros_antigos (test_entrega2.TestEntrega2Autenticacao.test_rehash_quando_parametros_antigos) ... ok
+test_salt_unico_por_usuario (test_entrega2.TestEntrega2Autenticacao.test_salt_unico_por_usuario) ... ok
+test_senha_curta_e_recusada (test_entrega2.TestEntrega2Autenticacao.test_senha_curta_e_recusada) ... ok
+test_senha_muito_longa_e_recusada (test_entrega2.TestEntrega2Autenticacao.test_senha_muito_longa_e_recusada) ... ok
+test_senha_nao_fica_em_texto_puro (test_entrega2.TestEntrega2Autenticacao.test_senha_nao_fica_em_texto_puro) ... ok
+test_sha256_isolado_e_deterministico_e_sem_salt (test_entrega2.TestEntrega2Autenticacao.test_sha256_isolado_e_deterministico_e_sem_salt) ... ok
+test_sql_injection_no_login_nao_autentica (test_entrega2.TestEntrega2Autenticacao.test_sql_injection_no_login_nao_autentica) ... ok
+test_usuario_duplicado_e_recusado (test_entrega2.TestEntrega2Autenticacao.test_usuario_duplicado_e_recusado) ... ok
+test_verificacao_e_feita_pela_biblioteca (test_entrega2.TestEntrega2Autenticacao.test_verificacao_e_feita_pela_biblioteca) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 2.926s
+
+OK

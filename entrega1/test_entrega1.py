@@ -9,7 +9,7 @@ try:
         MensagemCifrada,
     )
 except ModuleNotFoundError:
-    from criptografia_hibrida import (
+    from entrega1.criptografia_hibrida import (
         gerar_par_chaves_rsa,
         cifrar_mensagem_hibrida,
         decifrar_mensagem_hibrida,

@@ -1,0 +1,21 @@
+=== 1. Cadastro de usuarios (senhas ficticias) ===
+Usuarios 'alice' e 'bob' cadastrados com a MESMA senha.
+
+=== 2. Conteudo do banco (nenhuma senha em texto puro) ===
+alice  -> $argon2id$v=19$m=65536,t=3,p=4$kMYMzepawlcLsaJ/WMHLng$hMgN1pvdkCQMjbc1Ds9+kzIr6qpIpOM/Fbu42Eu2Foo
+bob    -> $argon2id$v=19$m=65536,t=3,p=4$sSRTlym7IZIAa6KVKbU31g$SMzdCWwFj+cQBtpbi/U/CRPagwE8XaiZvqG+5Ehy0B8
+Hashes diferentes mesmo com senhas iguais: o salt e unico por usuario.
+
+=== 3. Login correto e incorreto ===
+senha correta        -> sucesso=True | Login realizado com sucesso.
+senha incorreta      -> sucesso=False | Usuario ou senha invalidos.
+usuario inexistente  -> sucesso=False | Usuario ou senha invalidos.
+
+=== 4. Validacao de entrada ===
+Cadastro recusado (alice): Usuario ja cadastrado.
+Cadastro recusado (carol): A senha deve ter pelo menos 12 caracteres.
+
+=== 5. Custo: SHA-256 isolado vs Argon2id ===
+SHA-256: 0.34 microssegundos por tentativa
+Argon2id: 114.9 milissegundos por tentativa
+Razao aproximada: 339,230x mais lento para quem tenta adivinhar senhas.
