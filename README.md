@@ -32,7 +32,7 @@ python -m unittest entrega1_criptografia/test_entrega1.py
 **Entrega 2** (rodar de dentro da pasta da entrega):
 ```bash
 cd entrega2_autenticacao
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python demo.py
 python -m unittest -v test_entrega2.py
 ```

@@ -44,7 +44,7 @@ A verificação é feita exclusivamente por `PasswordHasher.verify()`, que recal
 ## Como executar
 ```bash
 cd entrega2_autenticacao
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python demo.py                      # demonstração (gera a saída de evidencia_demo.txt)
 python -m unittest -v test_entrega2.py   # 17 testes (saída em evidencia_testes.txt)
 ```
